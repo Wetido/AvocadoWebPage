@@ -1,18 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="pl">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>Avocado Web Page</title>
-  <meta name="description" content="AvocadoWebPage">
-  <meta name="author" content="AvocadoStudio">
+    <title>Avocado Web Page</title>
+    <meta name="description" content="AvocadoWebPage" />
+    <meta name="author" content="AvocadoStudio" />
 
-  <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/nav/nav.css" />
+    <link rel="stylesheet" href="../styles/nav/nav.min.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
 
-</head>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/f7fedbfe4a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-  <script src="../scripts/main.js"></script>
-</body>
+  <body>
+    <nav>
+      <div>
+        <span>Avocado Studio</span>
+        <div class="navbar-section-elements">
+          <div class="navbar-element">O nas</div>
+          <div class="navbar-element">Media</div>
+          <div class="navbar-element">Cos tam</div>
+        </div>
+        <i class="fas fa-bars" id="navbar-icon"></i>
+      </div>
+    </nav>
+    <script src="../scripts/nav.js"></script>
+  </body>
 </html>
