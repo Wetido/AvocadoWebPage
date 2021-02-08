@@ -40,6 +40,7 @@ nav > div > i {
   text-decoration: none;
   font-weight: 400;
   transition: all 0.35s ease;
+  cursor: pointer;
 
   &::before {
     content: "";
